@@ -11,7 +11,8 @@ def students_score():
      "name": name, 
      "scores" : [ score1, score2, score3, score4, score5]
     }
-student = students_score()
+if __name__ == "__main__":
+    student = students_score()
 
-print(f"Name: {student['name']}")
-print(f"Scores: {student['scores']}")
+    print(f"Name: {student['name']}")
+    print(f"Scores: {student['scores']}")
