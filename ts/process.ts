@@ -15,7 +15,7 @@ function find_grade(average_score: number): "A" | "B" | "C" | "D" | "F" {
         return "D";
     } else {
         return "F";
-    }
+    }1
 }
 
 let grade = find_grade(average_score)
