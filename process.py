@@ -1,7 +1,9 @@
+from feature1 import *
 import json
 
-name = "Roland"
-scores = [85, 92, 78, 90, 88]
+student = students_score()
+name = student['name']
+scores = student['scores']
 total_scores = sum(scores)
 average_score = total_scores/ len(scores)
 
